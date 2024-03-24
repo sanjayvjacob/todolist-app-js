@@ -1,6 +1,6 @@
 body{
   font-family: "Work Sans", sans-serif;
-  background-color: #824D74;
+  background-color: #50727B;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  background-color: #BE7B72;
+  background-color: #78A083;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -17,7 +17,7 @@ body{
   margin: 100px 20px 30px;
   border-radius: 10px;
   width: 300px;
-  height: auto;
+  height: 400px;
   padding: 20px;
 }
 
@@ -38,4 +38,16 @@ h1{
 font-weight: bold;
 color: #fff;
 }
+
+button{
+  background-color: #fff;
+  cursor: pointer;
+  width: 25px;
+  border-radius: 5px;
+}
+
+#toDoContainer { /* # is used as a prefix for an ID selector */
+  margin-top: 20px;
+}
+
 
