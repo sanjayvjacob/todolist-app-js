@@ -7,6 +7,7 @@ addToDoButton.addEventListener("click", function () {
   if (toDoText) {
     const listItem = document.createElement("li");
     listItem.textContent = toDoText;
+    listItem.style.color = "#fff";
     toDoContainer.appendChild(listItem);
     inputField.value = "";
 
