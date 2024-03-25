@@ -1,9 +1,15 @@
-# To-Do List App
+## To-Do List App
 
-Screenshot
+# Users should be able to:
+
+- Add Items to the list
+- Strikethrough items with single click
+- Delete items with double click
+
+# Screenshot
 
 ![](./screenshot.png)
 
-Live site URL
+# Live site URL
 
 https://sanjayvjacob.github.io/todolist-app-js/
