@@ -11,6 +11,10 @@ addToDoButton.addEventListener("click", function () {
     toDoContainer.appendChild(listItem);
     inputField.value = "";
 
+    listItem.addEventListener("click", function () {
+      listItem.classList.toggle("strikethrough"); //toggles the presence of the class
+    });
+
     listItem.addEventListener("dblclick", function () {
       toDoContainer.removeChild(listItem);
     });
